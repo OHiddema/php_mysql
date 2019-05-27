@@ -10,3 +10,6 @@ Step 2:
 
 Step 3:
 - Create a 'laptops' table. The SQL statement was created with phpMyadmin.
+
+Step 4.
+- Create a new record in the table laptops.
