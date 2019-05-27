@@ -17,11 +17,25 @@
          xmlhttp.open('GET', 'connect.php', true);
          xmlhttp.send();
       }
+
+      // copy createDb() for now, optimize code laterr
+      function createTable() {
+         var xmlhttp = new XMLHttpRequest();
+         xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+               console.log(this.responseText);
+            }
+         };
+         xmlhttp.open('GET', 'create.php', true);
+         xmlhttp.send();
+      }
+
    </script>
    </head>
 
 <body>
    <button onclick='createDb()'>Create database</button>
+   <button onclick='createTable()'>Create table</button>
 </body>
 
 </html>
