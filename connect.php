@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "UCw-ypvp";
 
 try {
     $conn = new PDO("mysql:host=$servername", $username, $password);
