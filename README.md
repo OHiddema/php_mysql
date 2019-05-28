@@ -13,3 +13,6 @@ Step 3:
 
 Step 4.
 - Create a new record in the table laptops.
+
+Step 5.
+- When adding a record, also return the id of the last insterted record.
