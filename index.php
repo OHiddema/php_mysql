@@ -18,12 +18,19 @@
          xmlhttp.send();
       }
    </script>
+
+   <style>
+      button {
+         margin: 5px;
+      }
+   </style>
    </head>
 
 <body>
-   <button onclick='callDatabase("connect.php")'>Create database</button>
-   <button onclick='callDatabase("create.php")'>Create table</button>
-   <button onclick='callDatabase("addrecord.php")'>Add record</button>
+   <button onclick='callDatabase("connect.php")'>Create database</button><br>
+   <button onclick='callDatabase("create.php")'>Create table</button><br>
+   <button onclick='callDatabase("addrecord.php")'>Add record</button><br>
+   <button onclick='callDatabase("addmultirecord.php")'>Add 3 records</button><br>
 </body>
 
 </html>

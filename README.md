@@ -16,3 +16,6 @@ Step 4.
 
 Step 5.
 - When adding a record, also return the id of the last insterted record.
+
+Step 6.
+- Create multiple records with a transaction.
