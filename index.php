@@ -50,7 +50,6 @@
 
    <form>
       Using a select query and pass a parameter to select all laptops of this brand:<br>
-      <!-- <select name="selection" onchange="showselection(this.options[this.selectedIndex].text)"> -->
       <select name="selection" onchange="callDatabase('showselection.php?q=' + this.options[this.selectedIndex].text)">
       <!-- selection mechanism not perfect yet -->
          <option value="1">HP</option>
