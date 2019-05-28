@@ -31,3 +31,6 @@ Step 9.
 
 Step 10.
  - Use a SQL select statement to select all HP laptops and output the result to the console.
+
+Step 11.
+ -Use a SQL select statement and passing a parameter chosen by the user.

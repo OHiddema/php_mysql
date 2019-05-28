@@ -17,6 +17,18 @@
          xmlhttp.open('GET', phpCall, true);
          xmlhttp.send();
       }
+
+      function showselection(str) {
+         var xmlhttp = new XMLHttpRequest();
+         xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+               console.log(this.responseText);
+            }
+         }
+        xmlhttp.open("GET","showselection.php?q="+str,true);
+        xmlhttp.send();
+      }
+      
    </script>
 
    <style>
@@ -35,6 +47,15 @@
    <button onclick='callDatabase("deleterecord.php")'>Delete record (id=1)</button><br>
    <button onclick='callDatabase("updaterecord.php")'>Update record (id=2)</button><br>
    <button onclick='callDatabase("select.php")'>Select HP laptops</button><br>
+
+   <form>
+      Using a select query and pass a parameter to select all laptops of this brand:<br>
+      <select name="users" onchange="showselection(this.options[this.selectedIndex].text)">
+      <!-- selection mechanism not perfect yet -->
+         <option value="1">HP</option>
+         <option value="2">Asus</option>
+   </select>
+   </form>
 </body>
 
 </html>
