@@ -25,3 +25,6 @@ Step 7.
 
 Step 8.
 - Delete a record (id=1).
+
+Step 9.
+- Update a record (id=2).
