@@ -19,3 +19,6 @@ Step 5.
 
 Step 6.
 - Create multiple records with a transaction.
+
+Step 7.
+- Create multiple records with a prepared statement.
