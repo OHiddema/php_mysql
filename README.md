@@ -28,3 +28,6 @@ Step 8.
 
 Step 9.
 - Update a record (id=2).
+
+Step 10.
+ - Use a SQL select statement to select all HP laptops and output the result to the console.
