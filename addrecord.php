@@ -1,6 +1,5 @@
 <?php
 require_once('secret.php');
-$dbname = "myDBPDO";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
