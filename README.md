@@ -22,3 +22,6 @@ Step 6.
 
 Step 7.
 - Create multiple records with a prepared statement.
+
+Step 8.
+- Delete a record (id=1).

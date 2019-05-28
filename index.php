@@ -32,6 +32,7 @@
    <button onclick='callDatabase("addrecord.php")'>Add record</button><br>
    <button onclick='callDatabase("addmultirecord.php")'>Add 3 records</button><br>
    <button onclick='callDatabase("addmultirecprep.php")'>Add 3 records (prepared)</button><br>
+   <button onclick='callDatabase("deleterecord.php")'>Delete record (id=1)</button><br>
 </body>
 
 </html>
